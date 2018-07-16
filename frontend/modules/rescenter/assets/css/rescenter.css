@@ -1,0 +1,71 @@
+/***********************************************************************************************************************
+ *
+ * 资源中心
+ *
+ ***********************************************************************************************************************/
+
+
+/***********************************************************************************************************************
+ *
+ * 公共样式
+ *
+ ***********************************************************************************************************************/
+
+
+/***********************************************************************************************************************
+ *
+ * 列表页样式
+ *
+ ***********************************************************************************************************************/
+.rescenter-default-index{
+    padding: 20px;
+}
+.rescenter-default-index .list{
+    margin-right: -40px;
+}
+/*******************************************************************************
+ * 资源项
+ *******************************************************************************/
+.rescenter-default-index .list .res-tile{
+    display: inline-block;
+    width: 280px;
+    margin: 0 20px 20px 0px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rescenter-default-index .list .res-tile:hover{
+    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translate3d(0, -2px, 0);
+    -moz-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+}
+/* 图片 */
+.rescenter-default-index .list .res-tile .pic-box {
+    position: relative;
+    width: 280px;
+    height: 210px;
+    text-align: center;
+    border-bottom: solid 1px #f2f2f2;
+}
+.rescenter-default-index .list .res-tile .pic-box img{
+    margin: 19% auto;
+}
+/* 名称 */
+.rescenter-default-index .list .res-tile .name-box {
+    margin: 20px 10px;
+    color: #666666;
+}
+.rescenter-default-index .list .res-tile .name-box .name{
+    width: 215px;
+    display: inline-block;
+}
+.rescenter-default-index .list .res-tile .name-box .download{
+    float: right;
+}

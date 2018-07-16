@@ -44,5 +44,10 @@ return [
             ],
         ],
     ],
+    'modules' => [
+        'rescenter' => [
+            'class' => 'frontend\modules\rescenter\Module',
+        ],
+    ],
     'params' => $params,
 ];
