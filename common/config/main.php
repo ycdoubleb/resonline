@@ -28,7 +28,9 @@ return [
         ],
     ],
     'modules' => [
-        'ueditor' => ['class' => 'common/modules/ueditor/Module'],
-        'webuploader' => ['class' => 'common/modules/webuploader/Module'],
+        /* 百度编辑器 */
+        'ueditor' => ['class' => 'common\modules\ueditor\Module'],
+        /* 上传组件 */
+        'webuploader' => ['class' => 'common\modules\webuploader\Module'],
     ]
 ];
