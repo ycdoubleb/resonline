@@ -30,16 +30,16 @@ class ApiResponse {
      * 缺少参数
      * eg：缺少 fileMD5或者chunkMD5
      */
-    const CODE_COMMON_MISS_PARAM = '10001';
+    const CODE_COMMON_MISS_PARAM = 'Code.Common.Miss.Param';
     /**
      * 保存DB出错
      */
-    const CODE_COMMON_SAVE_DB_FAIL = '10002';
+    const CODE_COMMON_SAVE_DB_FAIL = 'Code.Common.Save.DB.Fail';
     
     /**
      * 未知错误
      */
-    const CODE_COMMON_UNKNOWN = '10099';
+    const CODE_COMMON_UNKNOWN = 'Code.Common.Unknown';
     
     
     

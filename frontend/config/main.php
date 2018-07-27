@@ -48,6 +48,9 @@ return [
         'rescenter' => [
             'class' => 'frontend\modules\rescenter\Module',
         ],
+         'external' => [
+            'class' => 'frontend\modules\external\Module',
+        ],
     ],
     'params' => $params,
 ];
