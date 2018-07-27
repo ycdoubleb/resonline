@@ -27,9 +27,8 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-    <?php
-        $this->render('_nav');
-    ?>
+    
+    <?= $this->render('_nav'); ?>
 
     <div>
         <?= Breadcrumbs::widget([

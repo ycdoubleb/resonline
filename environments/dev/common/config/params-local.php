@@ -3,8 +3,8 @@
 return [
     /* 阿里云OSS配置 */
     'aliyun' => [
-        'accessKeyId' => 'LTAIUyDpZoTAN2zR',
-        'accessKeySecret' => 'XC9HPzKIxNZqbZjntsJm7ZCcr8fsO1',
+        'accessKeyId' => 'LTAIM0fcBM6L6mTa',
+        'accessKeySecret' => '2fSyGRwesxyP4X2flUF35n7brgxlEf',
         'oss' => [
             'bucket-input' => 'resonline',
             'bucket-output' => 'resonline',

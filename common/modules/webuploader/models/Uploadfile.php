@@ -134,7 +134,7 @@ class Uploadfile extends ActiveRecord {
     /**
      * 上传到阿里云
      * 
-     * @param string $key           文件名称，默认=customer_id/user_id/file_id.[ext]
+     * @param string $key           文件名称，默认=user_id/file_id.[ext]
      * @return array [success,msg]
      */
     public function uploadOSS($key = null) {
@@ -143,8 +143,6 @@ class Uploadfile extends ActiveRecord {
             $user = User::findOne(['id' => $this->created_by]);
             if(!$user){
                 return ['success' => false, 'msg' => '文件缺少创建人数据！'];
-            }else if($user->customer_id == null){
-                return ['success' => false, 'msg' => '用户未加入任何品牌！'];
             }
 
             //设置文件名

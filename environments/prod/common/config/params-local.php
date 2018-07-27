@@ -3,16 +3,16 @@
 return [
     /* 阿里云OSS配置 */
     'aliyun' => [
-        'accessKeyId' => 'LTAIUyDpZoTAN2zR',
-        'accessKeySecret' => 'XC9HPzKIxNZqbZjntsJm7ZCcr8fsO1',
+        'accessKeyId' => 'LTAIM0fcBM6L6mTa',
+        'accessKeySecret' => '2fSyGRwesxyP4X2flUF35n7brgxlEf',
         'oss' => [
             'bucket-input' => 'resonline',
             'bucket-output' => 'resonline',
-            'host-input' => 'resonline.oss-cn-shenzhen.aliyuncs.com',
-            'host-output' => 'resonline.oss-cn-shenzhen.aliyuncs.com',
+            'host-input' => 'resonline.oss-cn-shenzhen-internal.aliyuncs.com',
+            'host-output' => 'resonline.oss-cn-shenzhen-internal.aliyuncs.com',
             'host-input-internal' => 'resonline.oss-cn-shenzhen-internal.aliyuncs.com',
             'host-output-internal' => 'resonline.oss-cn-shenzhen-internal.aliyuncs.com',
-            'endPoint' => 'oss-cn-shenzhen.aliyuncs.com',
+            'endPoint' => 'oss-cn-shenzhen-internal.aliyuncs.com',
             'endPoint-internal' => 'oss-cn-shenzhen-internal.aliyuncs.com',
         ],
         'mts' => [

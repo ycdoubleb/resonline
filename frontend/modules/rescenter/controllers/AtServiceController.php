@@ -22,6 +22,9 @@ use yii\web\NotFoundHttpException;
  * @author Administrator
  */
 class AtServiceController extends AccessTokenController{
+    
+    public $layout = "@app/views/layouts/main_no_nav";
+    
     public function behaviors() {
         return parent::behaviors() + [
             'authenticator' => [

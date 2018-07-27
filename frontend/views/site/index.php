@@ -2,12 +2,16 @@
 
 use common\modules\webuploader\models\Uploadfile;
 use common\widgets\webuploader\WebUploaderAsset;
+use yii\helpers\Html;
 use yii\web\View;
 /* @var $this View */
 
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
+    
+    <div class="container"><?= Html::a('清空资源库',['clear-uploadfile'],['class' => 'btn btn-default'])?></div>
+    
     <div class="container">
         <div class="col-xs-12 col-sm-2" style="text-align: right;">视频上传：</div>
         <div id="video-uploader-container" class="col-xs-12 col-sm-10">
@@ -37,7 +41,7 @@ $this->title = 'My Yii Application';
                     // 上传容器
                     container: '#video-uploader-container',
                     formData: {
-                        _csrf: "<?= Yii::$app->request->csrfToken ?>",
+                        "<?= Yii::$app->request->csrfParam ?>": "<?= Yii::$app->request->csrfToken ?>",
                         //指定文件上传到的应用
                         app_path: 'vk',
                         //同时创建缩略图
