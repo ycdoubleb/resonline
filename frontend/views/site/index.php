@@ -51,7 +51,7 @@ $this->title = 'My Yii Application';
                 };
 
                 //视频
-                var videoUploader = new euploader.Uploader(config, euploader.TileView);
+                var videoUploader = new euploader.Uploader(config);
 
                 videoUploader.addCompleteFiles(<?= $files ?>);
             });
