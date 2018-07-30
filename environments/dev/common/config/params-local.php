@@ -10,10 +10,10 @@ return [
             'bucket-output' => 'resonline',
             'host-input' => 'resonline.oss-cn-shenzhen.aliyuncs.com',
             'host-output' => 'resonline.oss-cn-shenzhen.aliyuncs.com',
-            'host-input-internal' => 'resonline.oss-cn-shenzhen.aliyuncs.com',
-            'host-output-internal' => 'resonline.oss-cn-shenzhen.aliyuncs.com',
+            'host-input-internal' => 'resonline.oss-cn-shenzhen.aliyuncs.com',  //测试情况下用外网
+            'host-output-internal' => 'resonline.oss-cn-shenzhen.aliyuncs.com', //测试情况下用外网
             'endPoint' => 'oss-cn-shenzhen.aliyuncs.com',
-            'endPoint-internal' => 'oss-cn-shenzhen.aliyuncs.com',
+            'endPoint-internal' => 'oss-cn-shenzhen.aliyuncs.com',              //测试情况下用外网
         ],
         'mts' => [
             'region_id' => 'cn-shenzhen', //区域
