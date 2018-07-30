@@ -14,7 +14,13 @@ use yii\filters\VerbFilter;
  * Default controller for the `webuploader` module
  */
 class DefaultController extends BaseApiController {
+    
     public $enableCsrfValidation = false;
+    
+    public function init() {
+        parent::init();
+        \Yii::$app->user->enableSession = true;
+    }
     /**
      * {@inheritdoc}
      */
