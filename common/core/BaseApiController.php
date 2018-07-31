@@ -26,11 +26,6 @@ use const YII_DEBUG;
  * @author Administrator
  */
 class BaseApiController extends Controller {
-    public function init() {
-        parent::init();
-        //默认API禁用会话
-        Yii::$app->user->enableSession = false;
-    }
     /**
      * 不使用令牌认证
      * @return type

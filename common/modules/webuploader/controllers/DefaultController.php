@@ -17,10 +17,6 @@ class DefaultController extends BaseApiController {
     
     public $enableCsrfValidation = false;
     
-    public function init() {
-        parent::init();
-        \Yii::$app->user->enableSession = true;
-    }
     /**
      * {@inheritdoc}
      */
